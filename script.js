@@ -21,8 +21,6 @@ function sendEmailGmail() {
     const emailBody = 
         'Hello,\n\n' +
         'I am interested in purchasing the domain Suwate26.com.\n\n' +
-        'My offer: \n\n' +
-        'Additional details:\n\n\n' +
         'Please let me know the next steps.\n\n' +
         'Thank you,';
     
@@ -42,8 +40,6 @@ function sendEmailOutlook() {
     const emailBody = 
         'Hello,\n\n' +
         'I am interested in purchasing the domain Suwate26.com.\n\n' +
-        'My offer: \n\n' +
-        'Additional details:\n\n\n' +
         'Please let me know the next steps.\n\n' +
         'Thank you,';
     
@@ -62,8 +58,6 @@ function sendEmailDefault() {
     const emailBody = encodeURIComponent(
         'Hello,\n\n' +
         'I am interested in purchasing the domain Suwate26.com.\n\n' +
-        'My offer: \n\n' +
-        'Additional details:\n\n\n' +
         'Please let me know the next steps.\n\n' +
         'Thank you,'
     );
